@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+public class Run {
+    public static void main(String[] args) throws InterruptedException {
+            ReminderSystem.getInstance().start();
     }
 }
